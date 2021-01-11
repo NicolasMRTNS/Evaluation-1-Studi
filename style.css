@@ -4,3 +4,6 @@ h2 {
 header {
   background-color: #018749;
 }
+.border-image {
+  border: 3px solid #dc3545;
+}
