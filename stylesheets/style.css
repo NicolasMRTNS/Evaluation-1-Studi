@@ -7,3 +7,6 @@ header {
 .border-image {
   border: 3px solid #dc3545;
 }
+h3 {
+  font-size: 1.2em;
+}
