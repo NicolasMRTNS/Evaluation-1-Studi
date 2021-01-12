@@ -64,22 +64,27 @@
       class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark navbar-custom"
     >
       <div class="container">
-        <a class="navbar-brand mr-0 animation-mobile" href="#header"
+        <a
+          class="navbar-brand mr-0 animation-appear animation-mobile-appear"
+          href="#header"
           >Buena Partida Social Club</a
         >
         <!--Collapse button for responsive-->
         <button
-          class="navbar-toggler p-1 animation-mobile"
+          class="navbar-toggler p-1 animation-appear animation-mobile-appear"
           data-target="#navbarResponsive"
           data-toggle="collapse"
           aria-label="Aller à la page événements"
         >
-          <span class="navbar-toggler-icon animation-mobile"> </span>
+          <span
+            class="navbar-toggler-icon animation-appear animation-mobile-appear"
+          >
+          </span>
         </button>
         <!--End Collapse-->
         <div
           id="navbarResponsive"
-          class="collapse navbar-collapse animation-mobile"
+          class="collapse navbar-collapse animation-appear animation-mobile-appear"
         >
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
@@ -102,19 +107,21 @@
     <!--Header-->
     <header id="header" class="text-white text-center mt-5 py-5">
       <div class="container">
-        <h1 class="mb-0 animation-mobile">Buena Partida Social Club</h1>
+        <h1 class="mb-0 animation-appear animation-mobile-appear">
+          Buena Partida Social Club
+        </h1>
         <img
-          class="img-fluid img-thumbnail mt-3 mb-3 animation-mobile"
+          class="img-fluid img-thumbnail mt-3 mb-3 animation-appear animation-mobile-appear"
           src="assets/logo.webp"
           alt="Logo de l'association"
           width="150px"
           height="150px"
         />
-        <h2 class="mb-0 animation-mobile">
+        <h2 class="mb-0 animation-appear animation-mobile-appear">
           Une association organisant des soirées jeux de société à Toulouse
         </h2>
         <a
-          class="btn btn-warning btn-xl rounded-pill mt-5 animation-mobile"
+          class="btn btn-warning btn-xl rounded-pill mt-5 animation-appear animation-mobile-appear"
           role="button"
           href="./html-pages/events.html"
           >Page événements</a
@@ -125,9 +132,9 @@
     <!--Main-->
     <main>
       <!--First section-->
-      <section id="association" class="container animation-mobile">
+      <section id="association" class="container animation-mobile-appear">
         <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-1">
+          <div class="col-lg-6 order-lg-1 animation-from-left">
             <div class="p-5 d-flex justify-content-center">
               <img
                 class="rounded-circle img-fluid border-image"
@@ -138,7 +145,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-lg-2 animation-from-right">
             <div class="text-center px-5">
               <h2>L'association</h2>
               <p>
@@ -156,9 +163,9 @@
       </section>
       <!--End First section-->
       <!--Second section-->
-      <section id="podcast" class="container animation-mobile">
+      <section id="podcast" class="container animation-mobile-appear">
         <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-lg-2 animation-from-right">
             <div class="p-5 d-flex justify-content-center">
               <img
                 class="rounded-circle img-fluid border-image"
@@ -169,7 +176,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-6 order-lg-1">
+          <div class="col-lg-6 order-lg-1 animation-from-left">
             <div class="text-center px-5">
               <h2>Notre podcast</h2>
               <p>
@@ -188,9 +195,9 @@
       </section>
       <!--End Second section-->
       <!--Third section-->
-      <section id="events" class="container animation-mobile">
+      <section id="events" class="container animation-mobile-appear">
         <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-1">
+          <div class="col-lg-6 order-lg-1 animation-from-left">
             <div class="p-5 d-flex justify-content-center">
               <img
                 class="rounded-circle img-fluid border-image"
@@ -201,7 +208,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-lg-2 animation-from-right">
             <div class="text-center px-5">
               <h2>Événements</h2>
               <p>
@@ -221,9 +228,9 @@
       </section>
       <!--End Third section-->
       <!--Fourth section-->
-      <section id="location" class="container animation-mobile">
+      <section id="location" class="container animation-mobile-appear">
         <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-lg-2 animation-from-right">
             <div class="p-5 d-flex justify-content-center">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.6137096211282!2d1.464308115495818!3d43.59376187912334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebcf46c1a7a13%3A0x64dd0272b7aedd68!2s125%20Avenue%20Jean%20Rieux%2C%2031400%20Toulouse!5e0!3m2!1sfr!2sfr!4v1610375214032!5m2!1sfr!2sfr"
@@ -238,7 +245,7 @@
               ></iframe>
             </div>
           </div>
-          <div class="col-lg-6 order-lg-1">
+          <div class="col-lg-6 order-lg-1 animation-from-left">
             <div class="text-center px-5">
               <h2>Nous trouver</h2>
               <p>
@@ -257,7 +264,9 @@
     <!--Footer-->
     <footer class="py-3 bg-dark">
       <div class="container">
-        <p class="text-center text-white m-0 small">
+        <p
+          class="text-center text-white m-0 small animation-appear animation-mobile-appear"
+        >
           Copyright © Buena Partida Social Club - 2021
         </p>
       </div>

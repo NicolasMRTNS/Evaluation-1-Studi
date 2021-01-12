@@ -16,8 +16,20 @@ a.text-danger {
 
 /*Animation for mobile display*/
 @media screen and (max-width: 1000px) {
-  .animation-mobile {
+  .animation-mobile-appear {
     animation: 250ms ease-out 0s 1 growAndAppear;
+  }
+}
+/*Animation for desktop display*/
+@media screen and (min-width: 1000px) {
+  .animation-appear {
+    animation: 400ms ease-out 0s 1 growAndAppear;
+  }
+  .animation-from-left {
+    animation: 500ms ease-out 0s 1 slideInFromLeft;
+  }
+  .animation-from-right {
+    animation: 500ms ease-out 0s 1 slideInFromRight;
   }
 }
 
@@ -28,5 +40,24 @@ a.text-danger {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+/*Keyframes for desktop animation*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
