@@ -10,4 +10,6 @@ Contraintes : Réalisation de l'interface en mobile first, utilisation des media
 
 Plusieurs branches utilisées : main, dev et animations.
 
+Note finale : 18.75/20
+
 Adresse GitHub Pages : https://nicolasmrtns.github.io/Evaluation-1-Studi/
